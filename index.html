@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="instruction">
+        <main id="play">
+            <button class="btn">Play</button>
+        </main>
+        <dl id="group">
+            <dt class="legend">Score</dt>
+            <dd id="score" class="value">0</dd>
+        </dl>
+        <dl id="over">
+            <dt class="legend">Last Score</dt>
+            <dd id="lastscore">0</dd>
+        </dl>
+    </section>
+    <section id="gameArea">
+        <canvas id="gameCanvas" width="450" height="450"></canvas>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+#gameCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  border: dashed;
+}
+
+#gameArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+#instruction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 3 15rem;
+}
+
+#group {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#group .value {
+  font-size: 5rem;
+  font-family: 'Antic Slab', serif;
+  margin-inline-start: 1.5em;
+  margin-inline-end: 1.5em;
+}
+
+.legend {
+  margin-inline-start: 1.5em;
+  margin-inline-end: 1.5em;
+}
+
+
+#play {
+  height: 4rem;
+  width: 4rem;
+  justify-self: center;
+  flex-grow: 2;
+}
+
+.btn {
+  height: 3rem;
+  width: 5rem;
+  
+}
+
+#over {
+  font-size: 1.5em;
+  text-align: center;
+  flex-grow: 2;
+  height: 4rem;
+  width: 4rem;
+  justify-self: center;
+}
+
+#lastscore {
+  text-align: center;
+  margin-inline-start: 1.5em;
+  margin-inline-end: 1.5em;
+}
+
