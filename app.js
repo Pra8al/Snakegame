@@ -78,6 +78,7 @@ function main() {
                 { x: 110, y: 150 }];
             dx = 10;
             dy = 0;
+            gameSpeed = 750
             lastScore = score;
             score = 0;
             scoreHtml.innerHTML = score;
