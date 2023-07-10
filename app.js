@@ -14,8 +14,6 @@ let snake = [
     { x: 110, y: 150 }
 ]
 
-let snakeAtStart = Array.from(snake);
-
 // The user's score
 let score = 0;
 // When set to true the snake is changing direction
@@ -72,7 +70,14 @@ function main() {
     // If the game ended return early to stop game
     if (didGameEnd()) { 
             playHtml.style.opacity = 1; 
-            snake = snakeAtStart;
+            snake = [
+                { x: 150, y: 150 },
+                { x: 140, y: 150 },
+                { x: 130, y: 150 },
+                { x: 120, y: 150 },
+                { x: 110, y: 150 }];
+            dx = 10;
+            dy = 0;
             lastScore = score;
             score = 0;
             scoreHtml.innerHTML = score;
